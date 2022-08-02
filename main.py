@@ -1,8 +1,14 @@
+# main.py
+
+# import needed
 import sys
 
+# to get the filename
 arg = sys.argv
 
+# prase function that converts vs code to python code
 def parse(contents):
+    # removing unsupported python characters or changing code to python code
     args = contents.split()
     cont = contents.replace("; ", "\n")
     cont = cont.replace(";", "\n")
@@ -12,6 +18,7 @@ def parse(contents):
     cont = cont.replace("main", "")
     cont = cont.replace("-", "")
     cont = cont.replace("//", "#")
+    # error messages
     if len(args) > 2:
         error = ""
         if args[0] != "main":
@@ -28,13 +35,15 @@ def parse(contents):
     else:
         return "print('SyntaxError: Lacking main class defenition')"
 
+# checks if you input the filename
 if len(arg) > 1:
     try:
+        # open specified file
         with open(arg[1], "r") as f:
             cont = f.read()
             content = parse(cont)
             exec(content)
-
+    # in case file doesnt exist
     except FileExistsError:
         print("File doesn't exist.")
 else:
