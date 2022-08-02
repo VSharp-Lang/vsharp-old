@@ -36,6 +36,18 @@ The reason why I didn't add a space is because it can cause errors, you need to 
 ```
 main {
 -Console.Print("Hello, World!");
+-Console.Print(20);
 }
 ```
 <br>Make sure to put semicolons (;) at the end of a task to avoid errors</br>
+You can also use variables!
+<br>Make sure it starts with `var` and has a space before the name or else it might cause errors</br>
+```
+main {
+// this is a variable example!
+-var hello = "Hello, from a variable!";
+-var printing = 20;
+-Console.Print(hello);
+-Console.Print(printing);
+}
+```
