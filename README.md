@@ -10,11 +10,11 @@ To run a file you need to have the main.py file in your computer, python3 instal
 <br>The recommended file extension is .vs but you can name it anything as this is a interpreted language.</br>
 <br>These are the commands to run a file in different operating systems.</br>
 1. Linux
-<br>`python3 main.py <filename>`</br>
+<br>`python3 vsharp.py <filename>`</br>
 2. Windows
-<br>`python main.py <filename>`</br>
+<br>`python vsharp.py <filename>`</br>
 3. MacOS
-<br>`python3 main.py <filename>`</br>
+<br>`python3 vsharp.py <filename>`</br>
 Or if you have the exe you can follow do the following command:
 <br>`vsharp.exe <filename>`</br>
 
