@@ -1,5 +1,5 @@
 main {
-   import System.Random.Import;
+   import System.Random;
    // these two statements print something, run it to see!
    Console.Print("Hello, World!");
    Console.Print("Hello lol");
@@ -25,4 +25,13 @@ main {
    Console.Print("-"");
    var userInput = System.GetInput("Enter your name: ");
    helloname(userInput);
+   // ready for if statements?
+   var inp = System.GetInput("Enter a number: ");
+   var inp2 = System.ToInteger(inp);
+
+   if (inp2 == 1)-+ -{
+     --Console.Print("The number is one!");
+   else:
+     --Console.Print("Bro, unreadable stuff you got there");
+   }-
 }
