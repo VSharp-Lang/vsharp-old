@@ -83,6 +83,7 @@ main {
 }
 ```
 <br>You must be confused! Let me show you what I mean by `intiger`. There are a lot of value types in V#</br>
+```
 1. `String` --> Typed in quotes ("") and stores characters from `a-Z` and numbers `0-9`
 2. `Integer` --> Holds numbers from `-9223372036854775807` to `9223372036854775807`
 3. `Float` --> Holds the same thing as an integer but it is a decimal number.
@@ -90,3 +91,26 @@ main {
 ```
 <br>Those are the basic data types, now you're probably not confused!</br>
 <strong>NOTE: The random module has all the functions the python random module has so you can read up on that.</strong>
+<br>There are also `functions` that when called do whats in them.</br>
+A function is defined by typing `func <name>()` then you need to type space and `-{` to show the start of it, it always needs to be after the name in the same line. The commands you want to run when the function is called (`<name>()`) needs to be inside the `-{` and the `}-` at the end and need to have `--` before the command starts, like this!
+```
+main {
+  funct helloworld() -{
+        --Console.Print("Hello, this is a -function.");
+    }-
+   helloworld();
+}
+```
+![image](https://user-images.githubusercontent.com/68329886/182626638-4f4c3128-15a4-4773-b0b1-7f3e625b2dac.png)
+<br>You can also accept `arguments`, like this!</br>
+```
+main {
+  funct helloname(name : String) -{
+        --Console.Print("Hello, "+name+".");
+     }-
+     helloname("John");
+     helloname("Dave");
+}
+```
+![image](https://user-images.githubusercontent.com/68329886/182627973-5f8827aa-2c0e-4034-9b40-27f74771a459.png)
+<br>I also forgot to mention that you can add `: String`, `: Float`, `: Integer`, `: Boolean` to arguments to make them easier to understand for beginners and people looking through your code.</br>
