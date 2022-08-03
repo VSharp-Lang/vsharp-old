@@ -44,6 +44,7 @@ main {
 }
 ```
 <br>Here is how you can print to the console in vsharp.</br>
+Keep in mind that to print `//` instad of it printing # you need to add a `-` before it
 ```
 main {
   Console.Print("Hello, World!");
