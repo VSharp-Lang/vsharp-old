@@ -12,4 +12,13 @@ main {
    Console.Print(number);
    Console.Print(2021 + 1);
    Console.Print(System.Random.Int(1, 20));
+   funct helloworld() -{
+      --Console.Print("Hello, this is a -function.");
+   }-
+   helloworld();
+   funct helloname(name : String) -{
+      --Console.Print("Hello, "+name+".");
+   }-
+   helloname("John");
+   helloname("Dave");
 }
