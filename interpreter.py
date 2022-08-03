@@ -13,6 +13,7 @@ def parse(contents):
     cont = cont.replace("       ", "   ")
     cont = cont.replace("   ", "")
     cont = cont.replace("  ", "")
+    cont = cont.replace("", "")
     cont = cont.replace("//", "#")
     cont = cont.replace("var ", "")
     # error messages
