@@ -66,3 +66,26 @@ main {
   Console.Print(printing);
 }
 ```
+<br>You can also <strong>import</strong> libraries!</br>
+For example you can import a default library called `random` which can generate random stuff!
+<br>To import something you need to put `import` and the import module of the thing you want to import.</br>
+```
+import System.Random.Import;
+```
+<br>It's that easy! Let me show you how to use the <strong>random</strong> module.</br>
+To generate a `intiger` value you can run this command:
+```
+main {
+  // We are importing the module
+  import System.Random.Import;
+  // We are generating a random number from 1 to 20
+  Console.Print(System.Random.Int(1, 20));
+}
+```
+<br>You must be confused! Let me show you what I mean by `intiger`. There are a lot of value types in V#</br>
+1. `String` --> Typed in quotes ("") and stores characters from a-Z and numbers 0-9
+2. `Intiger` --> Holds numbers from `-9223372036854775807` to `9223372036854775807`
+3. `Float` --> Holds the same thing as an integer but it is a decimal number.
+4. `Boolean` --> Holds only two (2) values, true or false
+```
+<br>Those are the basic data types, now you're probably not confused!</br>
