@@ -13,6 +13,9 @@ def parse(contents):
     cont = cont.replace("System.GetInput", "input")
     cont = cont.replace("funct", "def")
     cont = cont.replace("-def", "funct")
+    cont = cont.replace("if(", "if ")
+    cont = cont.replace("if (", "if ")
+    cont = cont.replace(")-+", "")
     cont = cont.replace("-\"", "\\\"")
     if "System.Random.Import" in cont:
         import vs_random
@@ -38,10 +41,12 @@ def parse(contents):
         cont = cont.replace("System.Random.Weibullvariate", "")
         cont = cont.replace("System.Random.Normalvariate", "")
         cont = cont.replace("System.Random.Betavariate", "")
-    cont = cont.replace("import System.Random.Import", "import random")
+    cont = cont.replace("import System.Random", "import random")
     cont = cont.replace(" -{", ":")
     cont = cont.replace("-{", ":")
     cont = cont.replace("}-", "")
+    cont = cont.replace("-(", "")
+    cont = cont.replace(")-", "")
     cont = cont.replace("System.ToInteger", "int")
     cont = cont.replace("System.ToString", "str")
     cont = cont.replace("System.ToFloat", "float")
