@@ -16,6 +16,13 @@ To run a file you need to have the main.py file in your computer, python3 instal
 3. MacOS
 <br>`python3 main.py <filename>`</br>
 
+# Building the language
+This part is windows only.
+<br>To build it into an exe file you need to download the source and run the build.bat file.</br>
+Be patient and when its done you should have an exe file on the \dist\ directory where you extracted the language.
+<br>You can run a file in the command prompt after like this!</br>
+![image](https://user-images.githubusercontent.com/68329886/182557690-05c89078-99fa-4640-9cc6-d3e405259ee7.png)
+
 # Documentation
 
 To run code you first need to make a `main` class.
