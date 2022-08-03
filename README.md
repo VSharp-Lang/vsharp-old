@@ -28,15 +28,16 @@ main {
 Comments can be marked using `//`
 ```
 main {
-// like this!
+  // like this!
 }
 ```
-The reason why I didn't add a space is because it can cause errors, you need to put a `-` to make it easier to read but you can leave it blank if you want.
+In the main method if you put less than 2 spaces it will give an error.
 <br>Here is how you can print to the console in vsharp.</br>
 ```
 main {
--Console.Print("Hello, World!");
--Console.Print(20);
+  Console.Print("Hello, World!");
+  Console.Print(20);
+  Console.Print(13 + 50);
 }
 ```
 <br>Make sure to put semicolons (;) at the end of a task to avoid errors</br>
@@ -44,10 +45,10 @@ You can also use variables!
 <br>Make sure it starts with `var` and has a space before the name or else it might cause errors</br>
 ```
 main {
-// this is a variable example!
--var hello = "Hello, from a variable!";
--var printing = 20;
--Console.Print(hello);
--Console.Print(printing);
+  // this is a variable example!
+  var hello = "Hello, from a variable!";
+  var printing = 20;
+  Console.Print(hello);
+  Console.Print(printing);
 }
 ```
