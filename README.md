@@ -73,7 +73,7 @@ For example you can import a default library called `random` which can generate 
 import System.Random.Import;
 ```
 <br>It's that easy! Let me show you how to use the <strong>random</strong> module.</br>
-To generate a `intiger` value you can run this command:
+To generate a `integer` value you can run this command:
 ```
 main {
   // We are importing the module
@@ -84,7 +84,7 @@ main {
 ```
 <br>You must be confused! Let me show you what I mean by `intiger`. There are a lot of value types in V#</br>
 1. `String` --> Typed in quotes ("") and stores characters from `a-Z` and numbers `0-9`
-2. `Intiger` --> Holds numbers from `-9223372036854775807` to `9223372036854775807`
+2. `Integer` --> Holds numbers from `-9223372036854775807` to `9223372036854775807`
 3. `Float` --> Holds the same thing as an integer but it is a decimal number.
 4. `Boolean` --> Holds only two (2) values, true or false
 ```
