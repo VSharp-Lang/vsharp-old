@@ -1,3 +1,7 @@
+# vs_random.py
+# Converts random functions in V# to their corresponding functions
+# in Python.
+
 def work(content):
     cont = content.replace("System.Random.Int", "random.randint")
     cont = cont.replace("System.Random.ReturnState", "random.getstate")
