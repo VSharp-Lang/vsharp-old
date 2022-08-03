@@ -132,3 +132,9 @@ main {
 ```
 That's all this documentation has!
 <br>If you want to learn more go find a tutorial that's not this or try looking in the example.vs to find some interesting stuff!</br>
+
+
+
+# Fun Facts
+
+1. One time, while we were working on some new modules, Albi accidentally deleted the interpreter from the repo. Luckily he had a backup stored on his computer. This oopsie could have cost us our language.
