@@ -4,6 +4,7 @@ VSharp (V#) is a programming language made with the goal of having the smallest 
 <br>How it works is that it takes the code of a file and turns it into python code.</br>
 Feel free to post any bugs as it is currently in development at the moment!
 <br>This README.md file has a tutorial on how to use it.</br>
+<br><strong>The current version is 0.1</strong></br>
 
 # Running a file
 To run a file you need to have the main.py file in your computer, python3 installed and a file you can run.
