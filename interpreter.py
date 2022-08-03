@@ -7,6 +7,13 @@ def parse(contents):
     cont = contents.replace("; ", "\n")
     cont = cont.replace(";", "\n")
     cont = cont.replace("Console.Print", "print")
+    cont = cont.replace("System.Execute", "exec")
+    if "System.Random.Import" in cont:
+        import vs_random
+        cont = vs_random.work(cont)
+    else:
+        cont = cont.replace("System.Random.Int", "")
+    cont = cont.replace("import System.Random.Import", "import random")
     cont = cont.replace("{", "")
     cont = cont.replace("}", "\n")
     cont = cont.replace("main", "")
