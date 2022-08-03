@@ -114,3 +114,21 @@ main {
 ```
 ![image](https://user-images.githubusercontent.com/68329886/182627973-5f8827aa-2c0e-4034-9b40-27f74771a459.png)
 <br>I also forgot to mention that you can add `: String`, `: Float`, `: Integer`, `: Boolean` to arguments to make them easier to understand for beginners and people looking through your code.</br>
+Here are some built in functions:
+```
+main {
+  // Executes code (supports python)
+  System.Execute("""
+  main {
+    Console.Print("Hello, World!");
+  }""");
+  // Exits the application
+  System.Exit(69); // you can also specify an error code
+  // Waits for a certain amount of seconds
+  System.Break(3);
+  // Gets the users' input (can be stored in a variable)
+  System.GetInput("Enter your name");
+}
+```
+That's all this documentation has!
+<br>If you want to learn more go find a tutorial that's not this or try looking in the example.vs to find some interesting stuff!</br>
