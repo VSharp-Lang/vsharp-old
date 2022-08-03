@@ -8,6 +8,8 @@ def parse(contents):
     cont = cont.replace(";", "\n")
     cont = cont.replace("Console.Print", "print")
     cont = cont.replace("System.Execute", "exec")
+    cont = cont.replace("System.Exit", "sys.exit")
+    cont = cont.replace("System.Break", "time.sleep")
     cont = cont.replace("funct", "def")
     cont = cont.replace("-def", "funct")
     if "System.Random.Import" in cont:
