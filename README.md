@@ -15,13 +15,18 @@ To run a file you need to have the main.py file in your computer, python3 instal
 <br>`python main.py <filename>`</br>
 3. MacOS
 <br>`python3 main.py <filename>`</br>
+Or if you have the exe you can follow do the following command:
+<br>`vsharp.exe <filename>`</br>
 
 # Building the language
 This part is windows only.
 <br>To build it into an exe file you need to download the source and run the build.bat file.</br>
-Be patient and when its done you should have an exe file on the \dist\ directory where you extracted the language.
-<br>You can run a file in the command prompt after like this!</br>
+The requierments are that you need to have Python3 installed and pyinstaller installed, you can install python on their <a href="https://www.python.org/">official website</a> and you can install pyinstaller by running this command: <br>`pip install pyinstaller`</br>
+<br>Be patient and when its done you should have an exe file on the \dist\ directory where you extracted the language.</br>
+You can run a file in the command prompt after like this!
+<br>
 ![image](https://user-images.githubusercontent.com/68329886/182557690-05c89078-99fa-4640-9cc6-d3e405259ee7.png)
+</br>
 
 # Documentation
 
