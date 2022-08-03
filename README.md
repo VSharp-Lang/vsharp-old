@@ -44,12 +44,13 @@ main {
 }
 ```
 <br>Here is how you can print to the console in vsharp.</br>
-Keep in mind that to print `//` instad of it printing # you need to add a `-` before it
+Keep in mind that to print `//` instad of it printing `#` you need to add a `-` before it
 ```
 main {
   Console.Print("Hello, World!");
   Console.Print(20);
   Console.Print(13 + 50);
+  Console.Print("You can print -// now!");
 }
 ```
 <br>Make sure to put semicolons (;) at the end of a task to avoid errors</br>
