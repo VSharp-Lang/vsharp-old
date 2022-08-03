@@ -43,7 +43,6 @@ main {
   // like this!
 }
 ```
-In the main method if you put less than 2 spaces it will give an error.
 <br>Here is how you can print to the console in vsharp.</br>
 ```
 main {
