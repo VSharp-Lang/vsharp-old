@@ -30,6 +30,7 @@ You can run a file in the command prompt after like this!
 
 # Documentation
 
+<br><strong>NOTE: The example.vs includes everything documented here.</strong></br>
 To run code you first need to make a `main` class.
 <br>Like this!</br>
 ```
