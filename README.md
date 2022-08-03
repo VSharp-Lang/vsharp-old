@@ -89,3 +89,4 @@ main {
 4. `Boolean` --> Holds only two (2) values, true or false
 ```
 <br>Those are the basic data types, now you're probably not confused!</br>
+<strong>NOTE: The random module has all the functions the python random module has so you can read up on that.</strong>
