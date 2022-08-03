@@ -82,7 +82,7 @@ main {
   Console.Print(System.Random.Int(1, 20));
 }
 ```
-<br>You must be confused! Let me show you what I mean by `intiger`. There are a lot of value types in V#</br>
+<br>You must be confused! Let me show you what I mean by `integer`. There are a lot of value types in V#</br>
 ```
 1. `String` --> Typed in quotes ("") and stores characters from `a-Z` and numbers `0-9`
 2. `Integer` --> Holds numbers from `-9223372036854775807` to `9223372036854775807`
