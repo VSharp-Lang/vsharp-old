@@ -21,4 +21,8 @@ main {
    }-
    helloname("John");
    helloname("Dave");
+   // getting input!
+   Console.Print("-"");
+   var userInput = System.GetInput("Enter your name: ");
+   helloname(userInput);
 }
