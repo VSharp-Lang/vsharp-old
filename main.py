@@ -1,7 +1,7 @@
 # main.py
 
 # imports needed
-import sys
+import sys, time
 from interpreter import parse
 
 # to get the filename
