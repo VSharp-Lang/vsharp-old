@@ -83,7 +83,7 @@ main {
 }
 ```
 <br>You must be confused! Let me show you what I mean by `intiger`. There are a lot of value types in V#</br>
-1. `String` --> Typed in quotes ("") and stores characters from a-Z and numbers 0-9
+1. `String` --> Typed in quotes ("") and stores characters from `a-Z` and numbers `0-9`
 2. `Intiger` --> Holds numbers from `-9223372036854775807` to `9223372036854775807`
 3. `Float` --> Holds the same thing as an integer but it is a decimal number.
 4. `Boolean` --> Holds only two (2) values, true or false
