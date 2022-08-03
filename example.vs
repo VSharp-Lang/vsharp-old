@@ -1,4 +1,5 @@
 main {
+   import System.Random.Import;
    // these two statements print something, run it to see!
    Console.Print("Hello, World!");
    Console.Print("Hello lol");
@@ -10,4 +11,5 @@ main {
    var number = 130;
    Console.Print(number);
    Console.Print(2021 + 1);
+   Console.Print(System.Random.Int(1, 20));
 }
