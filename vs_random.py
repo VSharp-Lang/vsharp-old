@@ -12,7 +12,7 @@ def work(content):
     cont = cont.replace("System.Random.Float", "random.uniform")
     cont = cont.replace("System.Random.Triangular", "random.triangular")
     cont = cont.replace("System.Random.Gammavariate", "random.gammavariate")
-    cont = cont.replace("System.Random.Gauss", "random.gauss()")
+    cont = cont.replace("System.Random.Gauss", "random.gauss")
     cont = cont.replace("System.Random.Lognormvariate", "random.lognormvariate")
     cont = cont.replace("System.Random.Vonmisesvariate", "random.vonmisesvariate")
     cont = cont.replace("System.Random.Paretovariate", "random.paretovariate")
