@@ -16,6 +16,7 @@ To run a file you need to have the main.py file in your computer, python3 instal
 <br>`python vsharp.py <filename>`</br>
 3. MacOS
 <br>`python3 vsharp.py <filename>`</br>
+<br><br>
 Or if you have the exe you can follow do the following command:
 <br>`vsharp.exe <filename>`</br>
 
