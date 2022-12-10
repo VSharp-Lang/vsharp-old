@@ -13,7 +13,7 @@ To run a file you need to have the main.py file in your computer, python3 instal
 1. Linux
 <br>`python3 vsharp.py <filename>`</br>
 2. Windows
-<br>`python vsharp.py <filename>`</br>
+<br>`py -3 vsharp.py <filename>`</br>
 3. MacOS
 <br>`python3 vsharp.py <filename>`</br>
 <br><br>
